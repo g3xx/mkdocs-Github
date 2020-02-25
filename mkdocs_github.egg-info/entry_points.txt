@@ -1,3 +1,0 @@
-[mkdocs.themes]
-github = mkdocs_github
-
