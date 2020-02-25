@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--[if lt IE 9]>
+        <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Simple Theme Like a Github, 100% responsive.">
+        <meta name="keyword" content="theme mkdocs, theme mkdocs responsive, theme mkdocs github">
+        <meta name="author" content="g3xx">
+        <link rel="canonical" href="https://github.g3xx.com/">
+        <link rel="shortcut icon" href="img/favicon.ico">
+        <title>mkdocs-Github</title>
+        <link rel="stylesheet" href="css/theme.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/github.min.css">
+        <script src="js/theme.js" defer></script>
+      
+        <script> var base_url = "." </script>
+        <script src="search/main.js" defer></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+
+</head>
+<body>
+    <header class="header">
+        <a id="nav-toggle" class="pizza">&#9776;</a>
+        <div class="title">
+            <a href="/" class="logo">mkdocs-Github </a>
+             
+                <img alt="GitHub" src="https://flat.badgen.net/github/license/g3xx/antiFramework">
+                <a href="https://github.com/g3xx/antiFramework" target="_blank">
+                <img alt="GitHub stars" src="https://img.shields.io/github/stars/g3xx/antiFramework?style=social" class="stars">
+                </a>
+            
+            <div role="search" class="search">
+                <form><input type="search" placeholder="Search docs" id="mkdocs-search-query" /></form>
+            </div>
+        </div>
+         <a id="nav-scrh" class="scrh">&#8981;</a>
+    </header>
+    <div class="side" id="side">
+        <h2>Page</h2>
+        <ul>
+         
+              <!--
+
+-->
+
+<li class="active">
+    <a href=".">Home</a>
+</li>
+
+         
+              <!--
+
+-->
+
+<li >
+    <a href="markdown/">markdown</a>
+</li>
+
+         
+        </ul>
+          <h2>Table Of Contents</h2>
+          <ul id="toc" class="current">
+            
+              <li><a href="#mkdocs-github-theme-for-mkdocs">Mkdocs-Github Theme for MkDocs</a></li>
+              
+                  <li class="child"><a href="#about">About</a></li>
+              
+                  <li class="child"><a href="#install">Install</a></li>
+              
+                  <li class="child"><a href="#install-github-theme">Install  Github Theme</a></li>
+              
+                  <li class="child"><a href="#configuration">Configuration</a></li>
+              
+                  <li class="child"><a href="#license">License</a></li>
+              
+            
+        </ul>
+        <div class="about">
+            <hr/>
+            Built with 🛠 <a href="https://www.mkdocs.org">MkDocs</a> - 
+            Theme 🖤 <a href="https://github.com/g3xx/mkdocs-github">Github</a>.
+        </div>
+    </div>
+    <div class="spacer"><!-- i am margin --></div>
+    <div class="markdown-body">
+      
+        <div class="prev">
+          
+            &#8592; Previous Page
+          
+        </div>
+         <div class="next">
+          
+        <a href="markdown/" title="markdown"/>Next Page &#8594;</a>
+          
+        </div>
+      
+      <div class="clear"></div>
+    <div id="mkdocs-search-results"></div>
+
+      
+        <div id="body">
+            <h1 id="mkdocs-github-theme-for-mkdocs">Mkdocs-Github Theme for MkDocs</h1>
+<h2 id="about">About</h2>
+<p>Simple Theme for Mkdocs.</p>
+<h2 id="install">Install</h2>
+<p><strong><em>Required</em></strong>: Python 3.4+</p>
+<p>If you haven't installed MkDocs yet, use the following command to install it:</p>
+<pre><code class="shell">$ pip install mkdocs</code></pre>
+
+<p>Next, navigate to a clean directory and create a new MkDocs project with the following command:</p>
+<pre><code class="shell">$ mkdocs new [projectname]</code></pre>
+
+<p>Replace <code>[projectname]</code> with the name of your project (without the brackets).</p>
+<p>Then navigate to the root of your project directory:</p>
+<pre><code class="shell">$ cd [projectname]</code></pre>
+
+<h2 id="install-github-theme">Install  Github Theme</h2>
+<p>with PIP <code>pip install mkdocs-github</code> or download with zip.</p>
+<h2 id="configuration">Configuration</h2>
+<p><strong>mkdocs.yml</strong> for install via <strong>zip</strong></p>
+<pre><code class="yml">site_name: yourdocs
+site_author: you
+site_description: &quot;you word.&quot;
+site_keyword: &quot;you word&quot;
+
+theme:
+  name: null
+  custom_dir: github
+  highlightjs: true
+  hljs_style: github
+
+badge:
+ github_repo: mkdocs-Github 
+ github_user: g3xx
+</code></pre>
+
+<p><strong>mkdocs.yml</strong> with install via <strong>PIP</strong></p>
+<pre><code class="yml">site_name: yourdocs
+site_author: you
+site_description: &quot;you word&quot;
+site_keyword: &quot;your tag&quot;
+
+theme:
+  name: github
+  highlightjs: true
+  hljs_style: github
+
+badge:
+ github_repo: antiFramework 
+ github_user: g3xx
+
+</code></pre>
+
+<h2 id="license">License</h2>
+<p><strong>MIT</strong> and CSS by <a href="https://github.com/sindresorhus/github-markdown-css">sindresorhus</a></p>
+        </div>
+      
+      <hr/>
+  <!--
+  MkDocs version      : 1.0.4
+  Docs Build Date UTC : 2020-02-25 06:05:02
+  -->
+</div>
+</body>
+</html>

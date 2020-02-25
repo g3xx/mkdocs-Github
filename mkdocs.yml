@@ -1,0 +1,22 @@
+site_name: mkdocs-Github
+site_url: https://github.g3xx.com/
+site_author: g3xx
+site_description: "Simple Theme Like a Github, 100% responsive."
+site_keyword: "theme mkdocs, theme mkdocs responsive, theme mkdocs github"
+repo_url: "https://github.com/g3xx/mkdocs-Github"
+copyright: "license MIT"
+
+
+theme:
+  name: null
+  custom_dir: github
+  highlightjs: true
+  hljs_style: github
+
+nav:
+  - Home: index.md
+  - markdown: markdown.md 
+  
+badge:
+ github_repo: antiFramework 
+ github_user: g3xx

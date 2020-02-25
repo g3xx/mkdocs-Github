@@ -1,0 +1,14 @@
+# The theme configuration file
+# Defines custom settings specific to this theme.
+
+# Instructs the search plugin to include the search.html template
+
+static_templates:
+    - 404.html
+    
+badge:
+   github_repo: Mkdocs_Github
+   github_user: g3xx
+
+highlightjs: true
+hljs_style: github
